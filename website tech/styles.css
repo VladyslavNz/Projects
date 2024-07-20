@@ -1,0 +1,131 @@
+html{
+    margin: 0;
+    scroll-behavior: smooth
+}
+#navbar{
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #0052c4;
+}
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+#Introdutionn{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #060606;
+}
+.text{
+    padding: 10px 0 0 10px;
+    color: #1c1113;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+.punkt-text{
+    padding-left: 60px;
+}
+li::marker{
+    color: #eacbea;
+}
+.punkt-text li{
+    padding-bottom: 10px; 
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+#Codingg{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+}
+section article{
+    margin: 15px;
+    font-size: 0.96em;
+}
+.desc{
+    font-size: 15px;
+    text-align: left;
+    color: #4d4e53;
+    text-align: left;
+}
+
+
+.coding{
+    display: block;
+    text-align: left;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #ede4ee;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#Hello_Worldd{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+    margin-top: 25px;
+}
+
+#Variabless{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300; 
+}
+
+#Declaring_variabless{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+#Documentation{
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+}
+#navbar ul{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 30%;
+    padding: 0;
+}
+#navbar li{
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    #navbar {
+        position: relative;
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        padding: 20px;
+    }
+}
